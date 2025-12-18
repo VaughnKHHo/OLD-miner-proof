@@ -7,4 +7,3 @@ class VerifyTokenResult:
     is_valid: bool
     error_text: str
     proof_token: str
-    cooldown_period_hours: float = 0  # Cooldown period from backend config
